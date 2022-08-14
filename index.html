@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <link rel="stylesheet" href="/styles/owl.carousel.min.css" />
     <link rel="stylesheet" href="/styles/style.css" />
     <title>Star Wars</title>
   </head>
@@ -37,14 +42,19 @@
           </p>
           <span class="hero__premier">Премьера</span>
           <span class="hero__date">19 декабря 2019</span>
-          <button class="button-play hero__button-play">
+          <a
+            href="https://www.youtube.com/watch?v=8Qn_spdM5Zg"
+            class="button-play hero__button-play"
+            data-fancybox=""
+            data-target="https://www.youtube.com/watch?v=8Qn_spdM5Zg"
+          >
             Смотреть трейлер
-          </button>
+          </a>
         </div>
         <!-- /.hero -->
         <div class="episodes">
           <h2 class="episodes__title">Предыдущие эпизоды</h2>
-          <div class="slider">
+          <div class="slider owl-carousel owl-theme">
             <div class="slider__item">
               <div class="sloder__year">1977</div>
               <h3 class="slider__title">
@@ -53,6 +63,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle1.jpg"
@@ -68,6 +82,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle2.jpg"
@@ -83,6 +101,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle3.jpg"
@@ -98,6 +120,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle4.jpg"
@@ -113,6 +139,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle1.jpg"
@@ -128,6 +158,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle1.jpg"
@@ -143,6 +177,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle1.jpg"
@@ -158,6 +196,10 @@
               </h3>
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
+                <span class="slider__rating-stars">
+                  <i class="star"></i><i class="star"></i><i class="star"></i
+                  ><i class="star"></i><i class="star star-o"></i>
+                </span>
               </div>
               <img
                 src="/imgs/Rectangle1.jpg"
@@ -171,5 +213,8 @@
       </main>
     </div>
     <!-- /.container -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
