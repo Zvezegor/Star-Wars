@@ -15,7 +15,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #070506 url(/imgs/main-bg.png);
+  background: #070506 url(/imgs/main-bg.png) no-repeat top right 90%;
+  background-attachment: fixed;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
@@ -83,6 +84,8 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 16px;
+  text-decoration: none;
+  display: inline-block;
 }
 .button-play:after {
   content: "";
@@ -158,4 +161,16 @@ body {
 }
 .slider__item:hover:before {
   background: rgba(64, 101, 255, 0.86);
+}
+.slider__rating-label {
+  margin-right: 12px;
+}
+.star {
+  display: inline-block;
+  width: 12px;
+  height: 10.67px;
+  background: url(/imgs/star.svg) no-repeat center;
+}
+.star-o {
+  background: url(/imgs/star-o.svg) no-repeat center;
 }
