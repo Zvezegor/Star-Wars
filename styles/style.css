@@ -174,3 +174,49 @@ body {
 .star-o {
   background: url(/imgs/star-o.svg) no-repeat center;
 }
+
+.slider__nav--prev {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent url(/imgs/arrow-prev.svg) no-repeat center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.slider__nav--next {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent url(/imgs/arrow-next.svg) no-repeat center;
+  cursor: pointer;
+}
+.slider__nav--prev span,
+.slider__nav--next span {
+  display: none;
+}
+@media (max-width: 600px) {
+  .hero__title {
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .hero__subtitle {
+    font-size: 24px;
+  }
+  .hero__description {
+    font-size: 16px;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header__logo {
+    margin-bottom: 30px;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__link {
+    margin-left: 10px;
+  }
+}
