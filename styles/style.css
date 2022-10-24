@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #070506 url(/imgs/main-bg.png) no-repeat top right 90%;
+  background: #070506 url(../imgs/main-bg.png) no-repeat top right 90%;
   background-attachment: fixed;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -92,7 +92,7 @@ body {
   position: absolute;
   width: 65px;
   height: 65px;
-  background: #fff url(/imgs/play.svg) center no-repeat;
+  background: #fff url(../imgs/play.svg) center no-repeat;
   display: block;
   right: 0;
   top: 0;
@@ -169,17 +169,17 @@ body {
   display: inline-block;
   width: 12px;
   height: 10.67px;
-  background: url(/imgs/star.svg) no-repeat center;
+  background: url(../imgs/star.svg) no-repeat center;
 }
 .star-o {
-  background: url(/imgs/star-o.svg) no-repeat center;
+  background: url(../imgs/star-o.svg) no-repeat center;
 }
 
 .slider__nav--prev {
   width: 32px;
   height: 32px;
   border: none;
-  background: transparent url(/imgs/arrow-prev.svg) no-repeat center;
+  background: transparent url(../imgs/arrow-prev.svg) no-repeat center;
   margin-right: 15px;
   cursor: pointer;
 }
@@ -187,7 +187,7 @@ body {
   width: 32px;
   height: 32px;
   border: none;
-  background: transparent url(/imgs/arrow-next.svg) no-repeat center;
+  background: transparent url(../imgs/arrow-next.svg) no-repeat center;
   cursor: pointer;
 }
 .slider__nav--prev span,
